@@ -20,10 +20,10 @@ function initThemeManager() {
     if (localStorage.getItem('theme-ar') === 'light') {
         body.classList.add('light-theme');
         if (icon) icon.classList.replace('fa-sun', 'fa-moon');
-        if (logoImg) logoImg.src = './Image/logo-branca.jpeg';
+        if (logoImg) logoImg.src = './image/logo-branca.jpeg';
     } else {
         // Default is dark mode
-        if (logoImg) logoImg.src = './Image/logo-preta.jpeg';
+        if (logoImg) logoImg.src = './image/logo-preta.jpeg';
     }
 
     // Toggle event listener
