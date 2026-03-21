@@ -34,11 +34,11 @@ function initThemeManager() {
             
             if (isLight) {
                 if (icon) icon.classList.replace('fa-sun', 'fa-moon');
-                if (logoImg) logoImg.src = './Image/logo-branca.jpeg';
+                if (logoImg) logoImg.src = './image/logo-branca.jpeg';
                 localStorage.setItem('theme-ar', 'light');
             } else {
                 if (icon) icon.classList.replace('fa-moon', 'fa-sun');
-                if (logoImg) logoImg.src = './Image/logo-preta.jpeg';
+                if (logoImg) logoImg.src = './image/logo-preta.jpeg';
                 localStorage.setItem('theme-ar', 'dark');
             }
         });
