@@ -15,14 +15,14 @@
   --text-secondary: #a0a0a0;
   --border-glass: rgba(255, 255, 255, 0.15);
   
-  --action-gradient: linear-gradient(135deg, #ffffff 0%, #cccccc 100%);
+  --action-gradient: #CCFF00;
   --btn-text-solid: #000000;
   --btn-text-hover: #000000;
   --btn-bg: rgba(255, 255, 255, 0.05);
-  --hover-shadow: rgba(255, 255, 255, 0.2);
+  --hover-shadow: rgba(204, 255, 0, 0.4);
   
-  --cta-inner-bg: #ffffff;
-  --cta-inner-text: #000000;
+  --cta-inner-bg: #000000;
+  --cta-inner-text: #CCFF00;
   --input-bg: rgba(0, 0, 0, 0.6);
 
   --title-font: "Playfair Display", serif;
@@ -45,14 +45,14 @@ body.light-theme {
   --secondary-color: #333333;
   --accent-color: #000000;
 
-  --action-gradient: linear-gradient(135deg, #111111 0%, #444444 100%);
-  --btn-text-solid: #ffffff;
-  --btn-text-hover: #ffffff;
-  --hover-shadow: rgba(0, 0, 0, 0.2);
+  --action-gradient: #CCFF00;
+  --btn-text-solid: #000000;
+  --btn-text-hover: #000000;
+  --hover-shadow: rgba(204, 255, 0, 0.4);
   --btn-bg: rgba(0, 0, 0, 0.05);
 
   --cta-inner-bg: #000000;
-  --cta-inner-text: #ffffff;
+  --cta-inner-text: #CCFF00;
   --input-bg: rgba(235, 235, 235, 1);
 }
 
